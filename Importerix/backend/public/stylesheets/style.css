@@ -1,0 +1,63 @@
+body {
+  margin: 0 ;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+header{
+  background-color: #e9d8a6;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.logo{
+  border-radius: 50%;
+}
+.textarea1{
+  resize: none;
+  
+}
+.icon{
+  font-size: 35px;
+  color: green;
+}
+
+header h1{
+  color: rgb(245, 130, 29);
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Yellowtail', cursive;
+  display: inline-block;
+  position: relative;
+  bottom: -10px;
+  padding: 10px;
+  margin-left: 12px;
+  
+}
+footer{
+  background-color: #e9d8a6;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 50px 0;
+  /* margin-top: 20px; */
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h2{
+  color: #ee9b00;
+  font-weight: 400;
+}
+
+.cardLogin{
+  padding: 20px;
+}
+.gradient-custom {
+  /* background: rgb(244,238,215);
+  background: linear-gradient(90deg, rgba(244,238,215,1) 0%, rgba(232,217,37,1) 35%, rgba(255,166,0,1) 100%); */
+  background: rgb(236,213,95);
+background: radial-gradient(circle, rgba(236,213,95,1) 0%, rgba(230,145,34,1) 35%, rgba(236,213,95,1) 100%);
+  }

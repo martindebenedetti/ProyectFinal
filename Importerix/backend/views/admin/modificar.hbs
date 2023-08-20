@@ -1,0 +1,41 @@
+<div class="container" style="margin: 100px auto;">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar datos del producto</h4>
+            <form action="/admin/productos/modificar" method="post" enctype="multipart/form-data">
+                <input type="hidden" value="{{producto.id_productos}}" name="id_productos" >
+                <div class="form-group">
+                    <label for="">Nombre: </label>
+                    <input type="text" class="form-control" placeholder="nombre" value="{{producto.nombre}}" name="nombre">
+                </div>
+                <div class="form-group textarea1">
+                    <textarea type="text" class="form-control" cols="20" rows="5" maxlength="250"  placeholder="descripcion" name="descripcion">{{producto.descripcion}}</textarea>
+                </div>
+                <div class="mb-3  g-3 row">
+                <div class="form-group mb-3 col">
+                    <input type="number" class="form-control" placeholder="stock" name="stock" value="{{producto.stock}}"></input>
+                </div>
+                <div class="form-group mb-3 col">
+                    <input type="number" class="form-control" placeholder="precio" name="precio" value="{{producto.precio}}"></input>
+                </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="categoria" name="categoria" value="{{producto.categoria}}"></input>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <label>Imagen: <input type="file" name="imagen" id="imagen"/></label>
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="img_delete" id="img_delete" value="1">Eliminar imagen actual?</label>
+                        <input type="hidden" name="img_original" value="{{producto.img_id}}">
+                    </p>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            {{#if error}}
+            <h5>{{message}}</h5>
+            {{/if}}
+        </div>
+    </div>
+</div>

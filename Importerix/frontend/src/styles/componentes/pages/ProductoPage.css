@@ -1,0 +1,49 @@
+.productos{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+   
+    box-shadow: 5px 5px #888888;
+}
+.productos .data h4{
+    
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+    
+    padding-bottom: 10px;
+}
+.productos .data strong{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.productos div:nth-child(2){
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px #ccc;
+}
+h2{
+    color: #ee9b00;
+    font-weight: 400;
+    text-decoration: underline;
+
+  }
+.productos div:nth-child(3){
+    
+    font-family: 'Roboto Mono', monospace;
+}
+.data p:last-child{
+   
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+}
+.data p:first-child{
+   
+   
+    font-family: 'Roboto Mono', monospace;
+}
+  

@@ -1,0 +1,52 @@
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.testimonios{
+    width: 75%;
+    display: block;
+    flex-direction: column;
+
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bienvenidos p {
+    font-size: 20px;
+    text-align: left;
+
+}
+.testimonio{
+    background-color: #c6d0d7;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: #9ba1a8;
+    display: block;
+    border-radius: 20px;
+
+}
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    background-color: #9ba1a8 ;
+    display: block;
+    margin: 12px 0;
+    border-radius: 20px;
+}
+.portada{
+    width: 690px;
+    height: 350px;
+    border-radius: 20px;
+    filter: sepia(54%);
+}

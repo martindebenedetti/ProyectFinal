@@ -1,0 +1,22 @@
+header{
+    background-color: #e9d8a6;
+    padding: 16px 0;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+header h1{
+    color: rgb(245, 130, 29);
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Yellowtail', cursive;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+    padding: 10px;
+   
+    margin-left: 12px;
+    
+}
